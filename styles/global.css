@@ -5,6 +5,10 @@
 }
 
 :root {
+  --font-family:"Poppins", sans-serif;
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
+
   --brand-light:#F67841;
   --brand-mid:#F3541C;
   --brand-dark:#E43A12;
@@ -30,5 +34,18 @@
   --violet:#C3B2E7;
   --pink:#F682A5;
 
-  --font-family:"Poppins", sans-serif;
+}
+body {
+  overflow: hidden;
+  font: var(--text);
+  color: var(--text-secondary);
+}
+
+h1, h2 {
+  color: var(--text-primary);
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
